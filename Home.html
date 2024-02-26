@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramon's Portfolio Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #000428, #004E92) no-repeat;
+            background-size: cover;
+            margin: 0;
+            min-height: 100vh; 
+        }
+
+        header {
+            background-image: url('https://cdn.pixabay.com/photo/2016/07/30/19/56/banner-1557881_1280.jpg');
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: left;
+            color:#fff;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: center; 
+            margin-top: 20px;
+        }
+        .nav-link {
+            padding: 4px;
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 25px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .nav-link:hover {
+            color: #4682B4;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-gap: 20px;
+            padding: 20px;
+            grid-template-rows: auto 1fr;
+        }
+
+        .container {
+            background-size: cover;
+            border-radius: 8px;
+            padding: 20px;
+            color: #947b7b;
+            display: flex;
+            max-width: 800px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .introduction {
+            background-color: rgba(0,0,0,0.2); 
+            border-radius: 8px;
+            padding: 20px;
+            color: #fff;
+            font-size: 19px;
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ramon's Portfolio Website</h1>
+    </header>
+    <div class="nav-container">
+        <nav>
+            <a href="Home.html" class="nav-link">Home</a>
+            <a href="Projects.html" class="nav-link">Projects</a>
+            <a href="Resume.html" class="nav-link">Resume</a>
+        </nav>
+    </div>
+    <main>
+        <div class="container">
+            <img src="https://i.ibb.co/r71sh1C/ramon.jpg" alt="Ramon" no-repeat>
+        </div>
+        <div class="introduction">
+            <h2>Introduction</h2>
+            <p>
+                My name is Edgard L. Ramos Jr, and I'm a 20-year-old aspiring web developer im also interested on computer programming. Currently pursuing my Bachelor's 
+                degree in University of the Cordilleras,although im still getting used on coding html and css i am willing to learn to have experience on mastering HTML, CSS, and JavaScript.
+                <br><br>
+                Beyond coding, I have a diverse set of interests including playing games, watching anime, and playing the badminton , I also love listening to music because
+                it helps me relax. I believe in maintaining a healthy life. As I continue to grow and learn in the field of Web developmen I'm excited about the endless 
+                possibilities that lie ahead and look forward to sharpening my skills to innovative projects that make a positive impact on society.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
